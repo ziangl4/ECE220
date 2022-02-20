@@ -2,6 +2,7 @@
 
 ziangl4
 #include <stdio.h>
+// CREATE A FUNCTION TO CALCULATE THE NUMBER
 void function(int row）{
   int b=0;
   
@@ -14,10 +15,12 @@ void function(int row）{
        printf("%d",d);
      }
 }
+// THE MAIN FUNCTION
 int main (){
   printf("Enter a row index")
   int d;
   scanf("%d",&d);
+  //READ THE NUMBER FROM PEOPLE
   function(d);
   return 0;
   
